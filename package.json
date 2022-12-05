@@ -1,0 +1,34 @@
+{
+  "name": "te",
+  "version": "1.0.0",
+  "description": "test discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --no-warnings src/index.js",
+    "dev": "nodemon --no-warnings src/index.js"
+  },
+  "author": "ecspezi",
+  "license": "ISC",
+  "type": "module",
+  "imports": {
+    "#src/*": "./src/*",
+    "#lib/*": "./src/lib/*",
+    "#static/*": "./static/*"
+  },
+  "dependencies": {
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3",
+    "mongodb": "^4.11.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/plugin-syntax-import-assertions": "^7.18.6",
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.20"
+  }
+}

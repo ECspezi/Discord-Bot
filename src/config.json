@@ -1,0 +1,16 @@
+{
+    "token": "",
+    "clientId": "1027953971979100251",
+    "guildId": "1040938900039929917",
+    "ticketCathegory": "1046063589028528158",
+    "ticketArrivedChannel": "1044572189594222593",
+    "verifyUnverifiedRole": "1043262208408289340",
+    "verifyVerifiedRole": "1043237017590431794",
+    "mentorApplicationAccesRole": "1043226593214070804",
+    "mentorRole": "1043236182269640796",
+    "mentorApplicationChannel": "1045432012393156708",
+    "mentorQueueChannel": "1043507990931705876",
+    "mentorParent": "1043329380816007228",
+    "mentorLogChannel": "1045438858902384790",
+    "mongoUri": ""
+}

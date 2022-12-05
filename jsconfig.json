@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "checkJs": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "#src/*": [
+                "./src/*"
+            ],
+            "#lib/*": [
+                "./src/lib/*"
+            ],
+            "#static/*": [
+                "./static/*"
+            ]
+        }
+    },
+    "include": [
+        "./src/*/"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
